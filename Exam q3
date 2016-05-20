@@ -73,3 +73,8 @@ d)  Complete the Queue class by writing the "peek" and "remove" methods.
       temp = temp.next;}
     return temp:}
     
+  public remove(){
+  Link temp = this.peel();
+  length = length -1;
+  return temp;}
+    
