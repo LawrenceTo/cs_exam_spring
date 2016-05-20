@@ -68,11 +68,8 @@ c)  Explain what a Queue is.  Specify if it is LIFO or FIFO.
 d)  Complete the Queue class by writing the "peek" and "remove" methods.
   
   public Link peek{
-    return this.head;}
-    
-  public Link remove{
     Link temp = head;
-    length = length -1;
-    this.head = this.head.next;
-    return temp;}
+    for(int i=1, i<length, i++){
+      temp = temp.next;}
+    return temp:}
     
